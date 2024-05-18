@@ -1,18 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import { SiDjango } from "react-icons/si";
+import { SiBootstrap } from "react-icons/si";
+import { SiLaravel } from "react-icons/si";
+import { SiJquery } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
-  SiDjango,
 } from "react-icons/di";
 
 import {
-  SiRedis,
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
@@ -39,10 +40,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <SiJquery />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
@@ -54,7 +55,7 @@ function Techstack() {
       <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+      <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
@@ -63,7 +64,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        {/* <SiDjango /> */}
+        <SiDjango />
       </Col>
     </Row>
   );
